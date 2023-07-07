@@ -1,24 +1,29 @@
-body{
-background-color: black;
+body {
+    background-color: black;
 }
-h1{
+
+h1 {
     margin: 40px 0 40px 0;
     color: brown;
 }
-form, .box{
-        gap: 20px;
-    display:flex;
+
+form,
+.box {
+    gap: 20px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-input{
+
+input {
     width: 250px;
-    height:25px;
+    height: 25px;
     border-radius: 30px;
-    padding:0 15px 0 15px
+    padding: 0 15px 0 15px
 }
-button{
+
+button {
     width: 150px;
     height: 25px;
     border-radius: 30px;
